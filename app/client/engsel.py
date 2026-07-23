@@ -14,13 +14,18 @@ if not BASE_CIAM_URL:
     print("[WARNING] BASE_CIAM_URL not found in .env, using default.")
     BASE_CIAM_URL = "https://ciam.xlaxiata.co.id"
 
-if not BASE_API_URL or not BASE_CIAM_URL:
-    print("\n[ERROR] Environment variables missing!")
-    print("Please create a .env file in the project root with the following content:")
-    print('BASE_API_URL="https://api.myxl.xlaxiata.co.id"')
-    print('BASE_CIAM_URL="https://ciam.xlaxiata.co.id"')
-    print('BASIC_AUTH="Basic 0fb96963-67be-43e6-b49b-fb2223e716a4"')
-    raise ValueError("BASE_API_URL or BASE_CIAM_URL environment variable not set. See above for instructions.")
+if not BASE_API_URL or not BASE_API_URL="https://api.myxl.xlaxiata.co.id"
+BASE_CIAM_URL="https://gede.ciam.xlaxiata.co.id"
+BASIC_AUTH="OWZjOTdlZDEtNmEzMC00OGQ1LTk1MTYtNjBjNTNjZTNhMTM1OllEV21GNExKajlYSUt3UW56eTJlMmxiMHRKUWIyOW8z"
+AX_FP_KEY="18b4d589826af50241177961590e6693"
+UA="myXL / 8.9.0(1202); com.android.vending; (samsung; SM-N935F; SDK 33; Android 13)"
+API_KEY="vT8tINqHaOxXbGE7eOWAhA=="
+ENCRYPTED_FIELD_KEY="5dccbf08920a5527"
+
+XDATA_KEY="5dccbf08920a5527b99e222789c34bb7"
+AX_API_SIG_KEY="18b4d589826af50241177961590e6693"
+X_API_BASE_SECRET="mU1Y4n1vBjf3M7tMnRkFU08mVyUJHed8B5En3EAniu1mXLixeuASmBmKnkyzVziOye7rG5nIekMdthensbQMcOJ6SLnrkGyfXALD7mrBC6vuWv6G01pmD3XlU5rT7Tzx"
+CIRCLE_MSISDN_KEY="5dccbf08920a5527"
 
 GET_OTP_URL = BASE_CIAM_URL + "/realms/xl-ciam/auth/otp"
 BASIC_AUTH = os.getenv("BASIC_AUTH")
