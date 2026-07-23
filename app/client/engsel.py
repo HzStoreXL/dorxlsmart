@@ -19,7 +19,7 @@ if not BASE_API_URL or not BASE_CIAM_URL:
     print("Please create a .env file in the project root with the following content:")
     print('BASE_API_URL="https://api.myxl.xlaxiata.co.id"')
     print('BASE_CIAM_URL="https://ciam.xlaxiata.co.id"')
-    print('BASIC_AUTH="Basic YW5kcm9pZF9wb3N0cGFpZDphbmRyb2lkX3Bvc3RwYWlk"')
+    print('BASIC_AUTH="Basic 0fb96963-67be-43e6-b49b-fb2223e716a4"')
     raise ValueError("BASE_API_URL or BASE_CIAM_URL environment variable not set. See above for instructions.")
 
 GET_OTP_URL = BASE_CIAM_URL + "/realms/xl-ciam/auth/otp"
