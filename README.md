@@ -18,11 +18,11 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/Nizwarax/Tools
+git clone https://github.com/HzStoreXL/dorxlsmart
 ```
 4. Open the folder
 ```
-cd Tools
+cd dorxlsmart
 ```
 5. Setup
 ```
