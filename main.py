@@ -17,7 +17,6 @@ from app.menus.util import clear_screen, pause
 from app.client.engsel import get_balance
 from app.service.auth import AuthInstance
 from app.menus.bookmark import show_bookmark_menu
-from app.menus.account import show_account_menu
 from app.menus.package import fetch_my_packages, get_packages_by_family
 from app.menus.hot import show_hot_menu
 from app.menus.family_history_menu import show_family_code_menu
